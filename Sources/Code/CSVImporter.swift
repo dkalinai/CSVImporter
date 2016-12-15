@@ -55,7 +55,7 @@ open class CSVImporter<T> {
     ///   - delimiter: The delimiter used within the CSV file for separating fields. Defaults to ",".
     ///   - lineEnding: The lineEnding of the file. If not specified will be determined automatically.
     public init(path: String, delimiter: String = ",", lineEnding: LineEnding = .Unknown) {
-        self.csvFile = TextFile(path: Path(path))
+        self.csvFile = TextFile(path: Path(path), encoding: String.Encoding.utf16)
         self.delimiter = delimiter
         self.lineEnding = lineEnding
 
