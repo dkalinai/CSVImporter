@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A6D79DD1E02A8ED00969C19 /* utf16_file.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A6D79DC1E02A8ED00969C19 /* utf16_file.csv */; };
+		2A4674811E0447C600231B42 /* utf16_file.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2A4674801E0447C600231B42 /* utf16_file.csv */; };
+		2A6D79DD1E02A8ED00969C19 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		82239F4B1C4AF70500627674 /* CSVImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 82239F4A1C4AF70500627674 /* CSVImporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82239F521C4AF70500627674 /* CSVImporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82239F471C4AF70500627674 /* CSVImporter.framework */; };
 		82239F691C4AF9AE00627674 /* FileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82239F671C4AF9AE00627674 /* FileKit.framework */; };
@@ -182,6 +183,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A4674801E0447C600231B42 /* utf16_file.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = utf16_file.csv; sourceTree = "<group>"; };
 		82239F471C4AF70500627674 /* CSVImporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSVImporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82239F4A1C4AF70500627674 /* CSVImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CSVImporter.h; path = "Sources/Supporting Files/CSVImporter.h"; sourceTree = SOURCE_ROOT; };
 		82239F4C1C4AF70500627674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Sources/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -393,6 +395,7 @@
 		82239FB41C4AFC5100627674 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2A4674801E0447C600231B42 /* utf16_file.csv */,
 				827A24B11D2801050003D6DD /* CommaSemicolonQuotes.csv */,
 				82239FB51C4AFC5100627674 /* Lahman's Baseball Database */,
 			);
@@ -403,7 +406,6 @@
 		82239FB51C4AFC5100627674 /* Lahman's Baseball Database */ = {
 			isa = PBXGroup;
 			children = (
-				2A6D79DC1E02A8ED00969C19 /* utf16_file.csv */,
 				82239FB61C4AFC5100627674 /* AllstarFull.csv */,
 				82239FB71C4AFC5100627674 /* Appearances.csv */,
 				82239FB81C4AFC5100627674 /* AwardsManagers.csv */,
@@ -711,7 +713,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A6D79DD1E02A8ED00969C19 /* utf16_file.csv in Resources */,
+				2A6D79DD1E02A8ED00969C19 /* (null) in Resources */,
+				2A4674811E0447C600231B42 /* utf16_file.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
